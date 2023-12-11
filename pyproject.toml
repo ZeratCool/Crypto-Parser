@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cryptoparser"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+telebot = "^0.0.5"
+pandas = "^2.1.4"
+pywebio = "^1.8.3"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
